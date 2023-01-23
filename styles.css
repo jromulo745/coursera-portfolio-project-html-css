@@ -102,6 +102,17 @@ img {
   padding: 15px 20px;
 }
 
+.footer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_box {
+  border-radius: 10px;
+  margin: 50px 15px;
+}
+
 @media(max-width: 700px) {
   .header .container {
     flex-direction: column;
